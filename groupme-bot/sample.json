@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "response": {
+    "count": 5,
+    "messages": [
+      {
+        "attachments": [],
+        "avatar_url": "https://i.groupme.com/4453x3340.jpeg.9469ebe3e76c485a91a45359c997ce9b",
+        "created_at": 1703975182,
+        "favorited_by": [],
+        "group_id": "98324520",
+        "id": "170397518235459284",
+        "name": "test",
+        "sender_id": "883569",
+        "sender_type": "bot",
+        "source_guid": "6280cf308990013c2e1f567cf6e435bd",
+        "system": false,
+        "text": "testing",
+        "user_id": "883569",
+        "platform": "gm",
+        "pinned_at": null,
+        "pinned_by": ""
+      },
+      {
+        "attachments": [],
+        "avatar_url": null,
+        "created_at": 1703975031,
+        "favorited_by": [],
+        "group_id": "98324520",
+        "id": "170397503154576189",
+        "name": "GroupMe",
+        "sender_id": "system",
+        "sender_type": "system",
+        "source_guid": "089d37308990013c3b540ed8841741d9",
+        "system": true,
+        "text": "Jason Devers added the test bot",
+        "user_id": "system",
+        "event": {
+          "type": "bot.add",
+          "data": {
+            "user": {
+              "id": 50370331,
+              "nickname": "Jason Devers"
+            },
+            "bot": "test"
+          }
+        },
+        "platform": "gm",
+        "pinned_at": null,
+        "pinned_by": ""
+      },
+      {
+        "attachments": [],
+        "avatar_url": null,
+        "created_at": 1703969114,
+        "favorited_by": [],
+        "group_id": "98324520",
+        "id": "170396911465085252",
+        "name": "GroupMe",
+        "sender_id": "system",
+        "sender_type": "system",
+        "source_guid": "41deb5d08982013c7fb6226c85622fc8",
+        "system": true,
+        "text": "Jason Devers changed the group's avatar",
+        "user_id": "system",
+        "event": {
+          "type": "group.avatar_change",
+          "data": {
+            "user": {
+              "id": 50370331,
+              "nickname": "Jason Devers"
+            },
+            "avatar_url": "https://i.groupme.com/896x896.jpeg.1bea07b389e341be9e6a986f5cf19814"
+          }
+        },
+        "platform": "gm",
+        "pinned_at": null,
+        "pinned_by": ""
+      },
+      {
+        "attachments": [],
+        "avatar_url": null,
+        "created_at": 1703968255,
+        "favorited_by": [],
+        "group_id": "98324520",
+        "id": "170396825571895973",
+        "name": "GroupMe",
+        "sender_id": "system",
+        "sender_type": "system",
+        "source_guid": "41e81a808980013cdf460e5acf66b587",
+        "system": true,
+        "text": "Jason Devers has set this group to Visible for University of Maryland. Members of that community can now find it with Discover.",
+        "user_id": "system",
+        "event": {
+          "type": "group.visibility_set.community",
+          "data": {
+            "user": {
+              "id": 50370331,
+              "nickname": "Jason Devers"
+            }
+          }
+        },
+        "platform": "gm",
+        "pinned_at": null,
+        "pinned_by": ""
+      },
+      {
+        "attachments": [],
+        "avatar_url": null,
+        "created_at": 1703968237,
+        "favorited_by": [],
+        "group_id": "98324520",
+        "id": "170396823714848348",
+        "name": "GroupMe",
+        "sender_id": "system",
+        "sender_type": "system",
+        "source_guid": "36d678e08980013c5e0b2acd75227223",
+        "system": true,
+        "text": "Jason Devers added Abhinav Vedmala to the group.",
+        "user_id": "system",
+        "event": {
+          "type": "membership.announce.added",
+          "data": {
+            "added_users": [
+              {
+                "id": 84609151,
+                "nickname": "Abhinav Vedmala"
+              }
+            ],
+            "adder_user": {
+              "id": 50370331,
+              "nickname": "Jason Devers"
+            }
+          }
+        },
+        "platform": "gm",
+        "pinned_at": null,
+        "pinned_by": ""
+      }
+    ]
+  }
+}
