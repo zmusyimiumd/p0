@@ -29,7 +29,7 @@ def get_group_messages(since_id=None):
     get_url = f"https://api.groupme.com/v3/groups/{GROUP_ID}/messages"
     response = requests.get(get_url, params=params)
     if response.status_code == 200:
-        # this shows how to use the .get() method to get specifically the messages but there is more you can do
+        # this shows how to use the .get() method to get specifically the messages but there is more you can do (hint: sample.json)
         return response.json().get("response", {}).get("messages", [])
     return []
 
