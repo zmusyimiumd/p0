@@ -1,5 +1,7 @@
 # P0: GroupMe Bot
 
+## Due: uhhh, last day of classes?
+
 ## Overview
 
 - create a GroupMe bot that will be able to read/respond to messages in a GroupMe chat
@@ -17,12 +19,21 @@
 ## Setup
 
 1. Fork te repo to your own account
-    - go to the repo [here](https://github.com/cmsc389t-winter2024/p0.git)
-    - click the fork button in the top right
+    - on this repo, click the fork button in the top right
     - ensure that when you fork, it is public, otherwise we won't be able to see your submission
+2. Set up your `.env` file based on your GroupMe information. You just create a file called `.env` to represent your environment variables. Here is a template for your `.env` file:
 
 ```bash
-# clone the forked repo to your local machine and cd into it 
+BOT_ID=""
+GROUP_ID="98324520" # our GroupMe chat id
+ACCESS_TOKEN="" 
+```
+
+- `BOT_ID` is the id of your bot, you can find this on the [dev page](https://dev.groupme.com/bots)
+- This is file is what is loaded in [`bot.py`](./groupme-bot/bot.py#L7) via the `load_dotenv()` function
+
+```bash
+# clone the **forked** repo to your local machine and cd into it 
 git clone https://github.com/<your-username>/p0.git && cd p0
 
 # create virtual environment (this creates a folder called venv)
@@ -32,9 +43,12 @@ python3 -m venv venv
 source venv/bin/activate # for mac/linux
 venv\Scripts\activate # for windows
 
+
 # install dependencies
 pip install -r requirements.txt
 ```
+
+To deactivate the virtual environment, run `deactivate`
 
 ## Tasks
 
@@ -85,7 +99,7 @@ once you are done, commit your changes and push to your forked repo
 ```bash
 # adds all files that have been changed in the current directory
 git add .
-# commit changes with message
+# commit changes with message "completed p0" (you can change this to whatever you want)
 git commit -m "completed p0"
 # if this is your first time pushing, you'll need to set the upstream branch
 git push --set-upstream origin main
