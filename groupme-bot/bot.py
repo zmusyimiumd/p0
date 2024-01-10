@@ -33,6 +33,10 @@ def get_group_messages(since_id=None):
         return response.json().get("response", {}).get("messages", [])
     return []
 
+def print_recent_messages():
+    messages = get_group_messages()
+    for message in messages:
+        print(f"Sender ID: {message['sender_id']}, Text: {message['text']}")
 
 def process_message(message):
     """Process and respond to a message."""
