@@ -2,7 +2,7 @@
 
 ## Overview
 
-The NFL Schedule Bot is an easy-to-use tool in GroupMe chats, giving you the latest on NFL playoff games. Just type in a command, and it'll tell you who's playing when!
+The NFL Schedule Bot gives you the latest on NFL playoff games. Just type in a command, and it'll tell you whos playing when.
 
 ## Features
 
