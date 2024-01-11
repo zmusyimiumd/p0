@@ -114,7 +114,7 @@ def process_message(message):
                 else:
                     send_message(f"No games found for {requested_date.strftime('%Y-%m-%d')}.")
             except ValueError:
-                send_message("Please provide a valid date in YYYY-MM-DD format.")
+                send_message("Please provide a valid date in the YYYY-MM-DD format.")
         return
 
 def main():
